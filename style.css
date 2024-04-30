@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Gilroy';
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    display: flex;
+    background-color:cornflowerblue;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+   
+#card{
+    border-radius: 10px;
+    height: 600px;
+    width: 500px;
+    background-color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+#card img{
+    height: 50%;
+    width: 100%;
+    object-fit:cover;
+    object-position: center;
+    border-radius: 10px;
+}
+
+#card h1{
+    font-size: 26px;
+    font-weight: 800;
+    margin: 10px 0px;
+    font-style: oblique;
+}
+#card h5{
+    font-size: 25px;
+    color: red;
+    margin: 20px;
+}
+
+#card button{
+    background-color: cadetblue;
+    font-weight: 700px;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 5px;
+    border:none;
+    font-style:oblique;
+    margin: 5px;
+    cursor:pointer;
+}
+
+#card marquee{
+    text-align: center;
+    
+}
+
